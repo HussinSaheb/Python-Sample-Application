@@ -2,3 +2,9 @@
 *.egg-info
 .coverage
 env/
+.vagrant
+cookbooks
+.kitchen*
+Berksfile.lock
+ubuntu*
+.log
