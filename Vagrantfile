@@ -8,9 +8,6 @@ cd /home/ubuntu/python_app
 echo "installing requirements"
 sudo make bootstrap
 echo "finished installing requirements"
-echo "starting tests"
-sudo make test
-echo "finished testing"
 HEREDOC
 
 Vagrant.configure("2") do |config|
