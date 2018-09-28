@@ -20,7 +20,7 @@
     },
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "Python-App-HussinS-{{timestamp}}"
+    "ami_name": "PythonUber-App-HussinS-{{timestamp}}"
   }],
   "provisioners": [
     {
@@ -45,10 +45,6 @@
     {
       "type" : "shell",
       "inline": ["cd /home/ubuntu/python_app", "sudo make bootstrap"]
-    },
-    {
-      "type" : "shell",
-      "inline": ["cd /home/ubuntu/python_app", "sudo make test"]
     }
   ]
 }
