@@ -43,7 +43,6 @@ to navigate to the development folder please use this command once you're logged
 ```
 cd /home/ubuntu/python_app
 ```
-
 Development
 -----------
 If you want to work on this application we’d love your pull requests and tickets on GitHub!
