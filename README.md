@@ -31,10 +31,21 @@ Testing
 2. Run the command `make test`
 3. If you delete the fixtures, or decide to add some of your own, you’ll have to re-generate them, and the way this is done is by running the app, getting an auth_token from the main page of the app. Paste that token in place of the `test_auth_token` at the top of the `test_endpoints.py` file, then run the tests.
 
+Initial Development
+-------------------
+to develop to this project please run
+```
+ Vagrant up
+```
+this will setup a virtual machine that will have all the required dependencies to start developing on this project.
+
+to navigate to the development folder please use this command once you're logged in
+```
+cd /home/ubuntu/python_app
+```
 
 Development
 -----------
-
 If you want to work on this application we’d love your pull requests and tickets on GitHub!
 
 1. If you open up a ticket, please make sure it describes the problem or feature request fully.
